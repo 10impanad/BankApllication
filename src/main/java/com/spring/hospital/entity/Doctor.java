@@ -17,7 +17,7 @@ public class Doctor {
 	private int Id;
 	private String name;
 	private String specialization;
-	private double salary;
+	private double Doctorsalary;
 	@ManyToMany(mappedBy="doctors")
 	private List<Branch> branches;
 	
